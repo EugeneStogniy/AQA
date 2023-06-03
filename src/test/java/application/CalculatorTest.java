@@ -8,7 +8,7 @@ import static org.testng.Assert.*;
 import static org.testng.AssertJUnit.assertEquals;
 
 public class CalculatorTest {
-/*    Calculator calc = new Calculator();
+   Calculator calc = new Calculator();
     @Test
     public void testAdd() {
         int actualResult = calc.add(10, 5);
@@ -91,6 +91,6 @@ public class CalculatorTest {
         long actualResult = calc.checkDivideByZerro(2, 1);
         assertEquals("2/1 should be 2", 2, actualResult);
 
-    }*/
+    }
 
 }

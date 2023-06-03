@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Calculator App test">
+
+
+    <test name="Regression">
+        <groups>
+
+            <run>
+                <include name="Regression"></include>
+                <include name="Smoke"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="hardTests.HardTestClass"/>
+            <class name="mediumTests.MediumTestClass"/>
+            <class name="simpleTests.SimpleTestClass"/>
+
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Regression2">
+        <groups>
+        </groups>
+
+        <classes>
+            <class name="hardTests.HardTestClass"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

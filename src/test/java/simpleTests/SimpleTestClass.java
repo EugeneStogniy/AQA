@@ -49,8 +49,6 @@ public class SimpleTestClass {
     assertEquals("10^2 must be 100.0", 100.0, actualResult);
   }
 
-  // TODO (*)
-  //add tests for new methods (multiply, division, subtraction, square root, x^2)
 
 
 }

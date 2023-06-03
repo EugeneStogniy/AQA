@@ -92,5 +92,8 @@ public class CalculatorTest {
         assertEquals("2/1 should be 2", 2, actualResult);
 
     }
+   
+    //     Make some changes on Github (just add some comment in code)
+    //     Pull changes from remote repository
 
 }
